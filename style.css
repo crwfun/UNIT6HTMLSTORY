@@ -1,0 +1,73 @@
+body {
+    margin: auto;
+    background-color: rgb(24, 24, 24);
+    color: antiquewhite;
+    font-family: calibri, verdana, arial;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-size: 15px;
+    margin-top: 16px;
+    background-repeat: repeat;
+}
+
+img {
+    width: 700px;
+}
+a {
+    color:rgb(150, 79, 172);
+}
+.container {
+    display: grid;
+}
+
+.container div {
+    background-color: rgb(24, 24, 24);
+    margin: auto;
+}
+
+.menu {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    padding: 8px;
+    a {
+        color: red;
+    }
+}
+
+.title {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    line-height: 20px;
+}
+
+.sitemap {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    padding: 8px;
+    a {
+        color: red;
+    }
+}
+
+.image {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    text-align: left;
+    padding: 6px;
+    margin: 0;
+    
+}
+
+.text {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    width: 700px;
+}
+
+.options {
+    grid-column: 1 / 4;
+    grid-row: 4 / 4;
+    padding: 6px;
+    border: 1px solid rgb(150, 79, 172);
+    border-radius: 10px;
+}
